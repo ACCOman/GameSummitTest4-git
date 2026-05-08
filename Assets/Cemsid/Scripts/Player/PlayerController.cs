@@ -68,12 +68,13 @@ public class PlayerController : MonoBehaviour
     private void PlayerLook()
     {
         Vector2 _lookVector = _inputHandler.GetLookVector();
+
         float mouseX = _lookVector.x * _lookSensitivity* Time.deltaTime;
         transform.Rotate(Vector3.up * mouseX);
 
         float mouseY = _lookVector.y * _lookSensitivity * Time.deltaTime;
         _xRotation -= mouseY;
-        _xRotation = Mathf.Clamp(_xRotation, 20f, 70f);
+        _xRotation = Mathf.Clamp(_xRotation, 15f, 70f);
 
         _playerCamera.localRotation = Quaternion.Euler(_xRotation, 0f, 0f);
     }
