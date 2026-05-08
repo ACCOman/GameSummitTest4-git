@@ -924,11 +924,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 35855423-a02b-4f6d-96ce-041cd21d97c8
+  cloudProjectId: c278aa1d-10df-4603-b419-73aae0ef86cd
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: TEST
-  organizationId: unity_lcfdjktylsivga
+  projectName: test 2026-05-07_22-47-33
+  organizationId: accoman648
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
