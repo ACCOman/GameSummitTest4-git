@@ -14,6 +14,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _lookSensitivity = 100f;
     [SerializeField] private float _jumpForce = 5f;
 
+    [Header("Camera")]
+    [SerializeField] private Transform _playerCamera;
+    private float _xRotation = 0f;
+
     [Header("What Is Doing?")]
     public bool _isIdling;
     public bool _isWalking;
@@ -66,6 +70,12 @@ public class PlayerController : MonoBehaviour
         Vector2 _lookVector = _inputHandler.GetLookVector();
         float mouseX = _lookVector.x * _lookSensitivity* Time.deltaTime;
         transform.Rotate(Vector3.up * mouseX);
+
+        float mouseY = _lookVector.y * _lookSensitivity * Time.deltaTime;
+        _xRotation -= mouseY;
+        _xRotation = Mathf.Clamp(_xRotation, 20f, 70f);
+
+        _playerCamera.localRotation = Quaternion.Euler(_xRotation, 0f, 0f);
     }
 
     public void HandleRun(bool isPressing)

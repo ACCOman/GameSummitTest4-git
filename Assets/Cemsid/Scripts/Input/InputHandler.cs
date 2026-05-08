@@ -8,8 +8,6 @@ public class InputHandler : MonoBehaviour
     private void Awake()
     {
         _playerInputs = new Inputs();
-
-
     }
 
     private void OnEnable()
@@ -19,6 +17,8 @@ public class InputHandler : MonoBehaviour
         _playerInputs.Player.Run.started += ctx => PlayerController.Instance.HandleRun(true);
         _playerInputs.Player.Run.canceled += ctx => PlayerController.Instance.HandleRun(false);
         _playerInputs.Player.Jump.performed += PlayerJump;
+        _playerInputs.Player.Pick.performed += ctx => PickItems.Instance.TryPickup();
+        _playerInputs.Player.Drop.performed += ctx => PickItems.Instance.DropItem();
     }
 
     private void PlayerJump(InputAction.CallbackContext context)
@@ -42,6 +42,4 @@ public class InputHandler : MonoBehaviour
 
         return _lookVector;
     }
-
-    
 }
