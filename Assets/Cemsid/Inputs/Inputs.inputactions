@@ -173,6 +173,114 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Elevator",
+            "id": "b18330d0-dd2a-4805-9d1e-56485adce551",
+            "actions": [
+                {
+                    "name": "_1",
+                    "type": "Button",
+                    "id": "2aaa3c5d-ae3d-4561-97df-e6ae1165c4a5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "_2",
+                    "type": "Button",
+                    "id": "098e7042-9932-4450-a09c-ab8409cca826",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "_3",
+                    "type": "Button",
+                    "id": "4cc43178-8536-40ce-823d-b3d788dc1a1a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "_4",
+                    "type": "Button",
+                    "id": "8a8e9949-5580-4e0f-9a42-076e4fec0ef6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "_5",
+                    "type": "Button",
+                    "id": "e2c555c3-896c-462d-bf07-4b616d07b342",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d1470c86-b9fc-4b2b-82d0-784285ab4d29",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "_1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95149023-0741-4254-a499-d86ef2bc4add",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "_2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bee4fa9-8126-4ad5-9794-b7f790cd3cae",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "_3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ec799fb-3a25-4662-bd39-8c1143a3c7b4",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "_4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8a244536-7fca-4e30-ad69-90933fedf658",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "_5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
