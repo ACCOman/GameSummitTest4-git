@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "GameSummitTest4-git.slnx"
+    "dotnet.defaultSolution": "SummitTest4-git.slnx"
 }
