@@ -222,6 +222,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "_6",
+                    "type": "Button",
+                    "id": "037a8bc6-e9bb-439e-8ee7-4295af7ee671",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "_7",
+                    "type": "Button",
+                    "id": "aa9bb88b-bc53-4b32-9921-39a00486aef0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -277,6 +295,28 @@
                     "processors": "",
                     "groups": ";Keyboard",
                     "action": "_5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1aea93b-6e25-4f36-8ff6-578622dd94c5",
+                    "path": "<Keyboard>/6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "_6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a798430-b9ae-4e14-9fd9-3993e6f883a1",
+                    "path": "<Keyboard>/7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "_7",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
