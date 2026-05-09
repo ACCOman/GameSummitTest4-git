@@ -10,16 +10,28 @@ public class ElevatorController : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private float _speed = 2f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip _workingSound;
+
     private Transform targetFloor;
 
     private void Awake()
     {
         Instance = this;
+        
+        if (_audioSource != null && _workingSound != null)
+        {
+            _audioSource.clip = _workingSound;
+            _audioSource.loop = true;
+            _audioSource.playOnAwake = false;
+        }
     }
 
     private void Update()
     {
         TargetFloor();
+        HandleAudio();
     }
 
     private void TargetFloor()
@@ -31,6 +43,28 @@ public class ElevatorController : MonoBehaviour
                 targetFloor.position,
                 _speed * Time.deltaTime
             );
+        }
+    }
+
+    private void HandleAudio()
+    {
+        if (_audioSource == null || _workingSound == null || targetFloor == null) return;
+
+        bool isMoving = Vector3.Distance(transform.position, targetFloor.position) > 0.01f;
+
+        if (isMoving)
+        {
+            if (!_audioSource.isPlaying)
+            {
+                _audioSource.Play();
+            }
+        }
+        else
+        {
+            if (_audioSource.isPlaying)
+            {
+                _audioSource.Stop();
+            }
         }
     }
 
