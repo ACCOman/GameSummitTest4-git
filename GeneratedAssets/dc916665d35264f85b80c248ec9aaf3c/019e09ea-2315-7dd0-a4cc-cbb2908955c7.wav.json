@@ -1,0 +1,15 @@
+{
+    "asset": "dc916665d35264f85b80c248ec9aaf3c",
+    "fileName": "019e09ea-2315-7dd0-a4cc-cbb2908955c7.wav",
+    "prompt": "short low buzz or error sound",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

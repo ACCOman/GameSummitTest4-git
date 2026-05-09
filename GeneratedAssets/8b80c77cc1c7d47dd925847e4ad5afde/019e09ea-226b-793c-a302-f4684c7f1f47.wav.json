@@ -1,0 +1,15 @@
+{
+    "asset": "8b80c77cc1c7d47dd925847e4ad5afde",
+    "fileName": "019e09ea-226b-793c-a302-f4684c7f1f47.wav",
+    "prompt": "high pitched chime or task completed sound",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

@@ -1,0 +1,15 @@
+{
+    "asset": "210d264097b9a4069bf5947c61765ce4",
+    "fileName": "019e09ea-1f10-7b16-9c03-f9e770b568f4.wav",
+    "prompt": "short electrical click or grab sound",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}
