@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
+using GLTFast.Schema;
 
 public class ElevatorDoorController : MonoBehaviour
 {
@@ -7,8 +9,10 @@ public class ElevatorDoorController : MonoBehaviour
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private AudioClip _dingSound;
     [SerializeField] private AudioClip _rideSound;
+    [SerializeField] private GameObject _endUI;
 
     private Coroutine _openingCoroutine;
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -32,6 +36,7 @@ public class ElevatorDoorController : MonoBehaviour
 
         // Open the door
         _doorAnimator.SetTrigger("Open");
+        _endUI.SetActive(true);
 
         // Play the ding sound when it opens
         if (_audioSource != null && _dingSound != null)
