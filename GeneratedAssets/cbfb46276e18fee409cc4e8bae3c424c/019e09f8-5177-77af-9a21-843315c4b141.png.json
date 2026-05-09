@@ -1,0 +1,28 @@
+{
+    "asset": "cbfb46276e18fee409cc4e8bae3c424c",
+    "fileName": "019e09f8-5177-77af-9a21-843315c4b141.png",
+    "prompt": "realistic dark red blood splatter, organic drips, wet look, high gloss, isolated on a pure white background for transparency removal, horror style, professional texture asset",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

@@ -1,0 +1,28 @@
+{
+    "asset": "3893a5946e165b7409ea28ad68b7bea8",
+    "fileName": "019e09fe-b877-743d-979d-c54e82ac8aec.png",
+    "prompt": "ultra-realistic dark red viscous blood splatter, organic drips and smears, wet glossy surface, high detail horror asset, isolated on a pure white background for transparency removal",
+    "negativePrompt": "",
+    "model": "gpt-image-1-5",
+    "modelName": "GPT Image 1.5",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

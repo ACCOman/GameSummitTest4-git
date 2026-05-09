@@ -1,0 +1,28 @@
+{
+    "asset": "bd31f5bed6f37a24797bb3c30041bef8",
+    "fileName": "019e09f9-cc4c-7be7-99d5-43be2275cc55.png",
+    "prompt": "dark thick realistic blood splatter with organic drips, high gloss, deep red color, wet texture, isolated on a pure white background, horror game asset style",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
