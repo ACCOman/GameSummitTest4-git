@@ -11,26 +11,49 @@ public class PickItems : MonoBehaviour
         Instance = this;
     }
 
+    // public void TryPickup()
+    // {
+    //     Ray ray = new Ray(Camera.main.transform.position, transform.forward);
+    //     if (Physics.Raycast(ray, out RaycastHit hit, 3f))
+    //     {
+    //         if (hit.collider.CompareTag("Pickable"))
+    //         {
+    //             carriedObject = hit.collider.gameObject;
+
+    //             Rigidbody rb = carriedObject.GetComponent<Rigidbody>();
+    //             Collider col = carriedObject.GetComponent<Collider>();
+
+    //             rb.isKinematic = true;
+    //             col.enabled = false;
+
+    //             carriedObject.transform.SetParent(handPosition);
+    //             carriedObject.transform.localPosition = Vector3.zero;
+    //         }
+    //     }
+    // }
     public void TryPickup()
+{
+    Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+    Debug.DrawRay(ray.origin, ray.direction * 3f, Color.red); // test üçün
+
+    if (Physics.Raycast(ray, out RaycastHit hit, 3f))
     {
-        Ray ray = new Ray(transform.position, transform.forward);
-        if (Physics.Raycast(ray, out RaycastHit hit, 3f))
+        if (hit.collider.CompareTag("Pickable"))
         {
-            if (hit.collider.CompareTag("Pickable"))
-            {
-                carriedObject = hit.collider.gameObject;
+            carriedObject = hit.collider.gameObject;
 
-                Rigidbody rb = carriedObject.GetComponent<Rigidbody>();
-                Collider col = carriedObject.GetComponent<Collider>();
+            Rigidbody rb = carriedObject.GetComponent<Rigidbody>();
+            Collider col = carriedObject.GetComponent<Collider>();
 
-                rb.isKinematic = true;
-                col.enabled = false;
+            rb.isKinematic = true;
+            col.enabled = false;
 
-                carriedObject.transform.SetParent(handPosition);
-                carriedObject.transform.localPosition = Vector3.zero;
-            }
+            carriedObject.transform.SetParent(handPosition);
+            carriedObject.transform.localPosition = Vector3.zero;
         }
     }
+}
+
 
     public void DropItem()
     {
