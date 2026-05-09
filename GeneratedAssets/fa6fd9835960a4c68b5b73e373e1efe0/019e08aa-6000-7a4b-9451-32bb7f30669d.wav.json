@@ -1,0 +1,15 @@
+{
+    "asset": "fa6fd9835960a4c68b5b73e373e1efe0",
+    "fileName": "019e08aa-6000-7a4b-9451-32bb7f30669d.wav",
+    "prompt": "A short electrical spark or snap sound, high-tech, clean.",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

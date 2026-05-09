@@ -1,0 +1,28 @@
+{
+    "asset": "4df73faf7519f467781eafbb4a8b2fc9",
+    "fileName": "019e08b1-1cd7-7259-b0bd-1bc9a140183c.png",
+    "prompt": "A 2D UI message box that says 'TASK COMPLETED' in bold sci-fi font, glowing green or yellow theme, game asset style.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
