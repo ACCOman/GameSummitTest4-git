@@ -27,6 +27,8 @@ public class InputHandler : MonoBehaviour
         _playerInputs.Elevator._3.performed += ctx => ElevatorController.Instance.GoToFloor(2);
         _playerInputs.Elevator._4.performed += ctx => ElevatorController.Instance.GoToFloor(3);
         _playerInputs.Elevator._5.performed += ctx => ElevatorController.Instance.GoToFloor(4);
+        _playerInputs.Elevator._6.performed += ctx => ElevatorController.Instance.GoToFloor(5);
+        _playerInputs.Elevator._7.performed += ctx => ElevatorController.Instance.GoToFloor(6);
     }
 
     private void PlayerJump(InputAction.CallbackContext context)
